@@ -23,7 +23,7 @@ public class BaseClass {
 	@BeforeMethod
 	public void SetUp() {
 
-		String BrowserName = System.getenv("Browser");
+		String BrowserName = System.getProperty("Browser");
 
 		if (BrowserName.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
