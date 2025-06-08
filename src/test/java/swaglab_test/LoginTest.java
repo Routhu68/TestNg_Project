@@ -40,7 +40,7 @@ public class LoginTest extends BaseClass {
 		WebElement Error = driver.findElement(By.tagName("h3"));
 
 		Assert.assertEquals(Error.getText(),
-				"Epic sadface: Username and password do not match any user in this services");
+				"Epic sadface: Username and password do not match any user in this service");
 
 	}
 
